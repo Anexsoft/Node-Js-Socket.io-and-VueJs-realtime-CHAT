@@ -1,0 +1,27 @@
+{
+  "name": "chat-nodejs",
+  "version": "1.0.0",
+  "description": "A simple real-time chat using Node JS, Socket.IO and Vue JS.",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anexsoft/Node-Js-Socket.io-and-VueJs-realtime-CHAT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anexsoft/Node-Js-Socket.io-and-VueJs-realtime-CHAT/issues"
+  },
+  "homepage": "https://github.com/Anexsoft/Node-Js-Socket.io-and-VueJs-realtime-CHAT#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
